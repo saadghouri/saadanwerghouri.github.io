@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1.2rem;
+}
+main {
+  padding: 2rem 10%;
+}
+section {
+  margin-bottom: 3rem;
+}
+h2 {
+  border-bottom: 2px solid #10b981;
+  padding-bottom: 0.5rem;
+}
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+a {
+  color: #10b981;
+  text-decoration: none;
+}
