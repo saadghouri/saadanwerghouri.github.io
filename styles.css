@@ -264,6 +264,47 @@ body {
     font-size: 1.2rem;
 }
 
+
+/* Tools Section */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.tools-category {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tools-category h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--light-color);
+    padding-bottom: 10px;
+}
+
+.tools-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tools-category li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+.tools-category li::before {
+    content: '•';
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
 /* Contact Section */
 .contact-content {
     display: flex;
